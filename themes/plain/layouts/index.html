@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <main aria-role="main">
+			<section class="homepage-posts">
+				<ul>
+					{{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+					<li> 
+						<a href="{{.Permalink}}">
+							<span>{{.Title}}</span>
+							<span> / </span>
+							<span>{{.Date.Format "2006-01-02"}}</span> 
+							<p> {{.Summary}} </p>
+						</a> 
+					</li>
+					{{ end }}
+				</ul>
+			</section>
+    </main>
+{{ end }}
