@@ -4,7 +4,7 @@ date: 2021-09-29
 draft: false
 ---
 
-It's now or never. In business it's easy to fall into this trap, if we don't act now company X is going to eat our lunch.
+> It's now or never.
 
 A farmer says it's now or never. He need to grow twice as much corn this year to win out over the other guy. Next year the same farmer says it's now or never, he needs to grow twice as much corn as last year or he will lose. When the harvest comes he produces less than 2 years ago while the other guy has produced a steady crop.
 
