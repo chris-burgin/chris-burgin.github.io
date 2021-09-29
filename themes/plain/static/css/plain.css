@@ -29,8 +29,9 @@ h2 {
 }
 
 /* Header */
-header p {
-	margin: 8px 0 32px 0;;
+body > header p {
+	margin: 8px 0 32px 0;
+	font-size: 18px;
 }
 
 /* Homepage */
@@ -78,8 +79,14 @@ header p {
 }
 
 /* Article */
-article h2 {
-	margin-top: 0;
+
+article header h2 {
+	margin: 0;
+}
+
+article header p {
+	margin: 0;
+	font-size: 16px;
 }
 
 article p {
