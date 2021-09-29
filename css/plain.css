@@ -117,3 +117,13 @@ article p {
 article img {
 	width: 100%;
 }
+
+article blockquote {
+	border-left: 1px solid rgba(0,0,0,.5);
+	margin-left: 0;
+	font-style: italic;
+	opacity: .8;
+	padding-left: 24px;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
