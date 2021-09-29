@@ -1,3 +1,89 @@
 body {
-	background: red;
+	margin: 0 auto;
+	max-width: 500px;
+	font-family: 'Merriweather', serif;
+	letter-spacing: -0.1px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 900;
+	background: white;
+	border: 3px solid black;
+	box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+	margin-bottom: 4px;
+	padding: 0 12px;
+	width: auto;
+	display: inline-block;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+/* Header */
+header p {
+	margin: 8px 0 32px 0;;
+}
+
+/* Homepage */
+.homepage-posts ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 16px;
+}
+
+.homepage-posts ul li a {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	gap: 8px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.homepage-posts ul li:first-of-type a {
+	padding-top: 16px;
+	border-top: 1px solid rgba(0,0,0,.3);
+}
+
+.homepage-posts ul li a:hover {
+	text-decoration: underline;
+}
+
+.homepage-posts ul li a span:first-of-type {
+	font-weight: bold;
+}
+
+.homepage-posts ul li a span:last-of-type {
+	font-size: 16px;
+}
+
+.homepage-posts ul li a p {
+	width: 100%;
+	margin: 0;
+	font-size: 15px;
+}
+
+/* Article */
+article h2 {
+	margin-top: 0;
+}
+
+article p {
+	line-height: 160%;
+	margin-bottom: 0;
+	font-size: 18px;
+	margin-top: 16px;
 }

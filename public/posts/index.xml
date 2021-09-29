@@ -6,14 +6,16 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Sep 2021 15:50:18 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Demo</title>
-      <link>http://example.org/posts/demo/</link>
-      <pubDate>Thu, 23 Sep 2021 15:50:18 -0400</pubDate>
+      <title>Overfarming and Software Development</title>
+      <link>http://example.org/posts/overfarming/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/demo/</guid>
-      <description>Test demo post</description>
+      <guid>http://example.org/posts/overfarming/</guid>
+      <description>Land, like everything, has an equilibrium. At once you can either store for the future or take from the future but there are limits to both.
+Software development, like everything, has an equilibrium. At once you can either store for the future or take from the future but there are limits to both.
+The best we can do in both is to strive for equilibrium.</description>
     </item>
     
   </channel>
