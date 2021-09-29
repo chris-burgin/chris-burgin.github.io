@@ -4,6 +4,7 @@ body {
 	font-family: 'Merriweather', serif;
 	letter-spacing: -0.1px;
 	padding: 16px;
+	color: #303030;
 }
 
 /* Headings */
@@ -16,7 +17,7 @@ h1 {
 	font-size: 40px;
 	font-weight: 900;
 	background: white;
-	border: 3px solid black;
+	border: 3px solid #303030;
 	box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
 	margin-bottom: 4px;
 	padding: 0 12px;
@@ -28,10 +29,32 @@ h2 {
 	font-size: 32px;
 }
 
+/* Link */
+a {
+	color: #2a77ca;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 /* Header */
-body > header p {
-	margin: 8px 0 32px 0;
+body > header {
 	font-size: 18px;
+}
+
+body > header p {
+	margin: 16px 0 0 0;
+}
+
+body > header nav {
+	display: flex;
+	gap: 12px;
+	border-top: 1px solid rgba(0,0,0,.3);
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	padding: 8px 0;
+	margin: 16px 0 32px 0;
 }
 
 /* Homepage */
@@ -48,16 +71,11 @@ body > header p {
 	flex-flow: row wrap;
 	align-items: center;
 	text-decoration: none;
-	color: black;
+	color: #303030;
 	font-size: 18px;
 	gap: 8px;
 	padding-bottom: 16px;
 	border-bottom: 1px solid rgba(0,0,0,.3);
-}
-
-.homepage-posts ul li:first-of-type a {
-	padding-top: 16px;
-	border-top: 1px solid rgba(0,0,0,.3);
 }
 
 .homepage-posts ul li a:hover {
@@ -94,4 +112,8 @@ article p {
 	margin-bottom: 0;
 	font-size: 18px;
 	margin-top: 16px;
+}
+
+article img {
+	width: 100%;
 }
