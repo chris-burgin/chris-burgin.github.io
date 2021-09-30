@@ -1,5 +1,5 @@
 ---
-title: "The Three Bedroom"
+title: "The Three Bedroom House"
 date: 2021-09-30
 draft: false
 ---
