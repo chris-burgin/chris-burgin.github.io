@@ -1,5 +1,22 @@
 ---
-title: "The House With Too Many Rooms"
-date: 2021-09-28
-draft: true
+title: "The Three Bedroom"
+date: 2021-09-30
+draft: false
 ---
+> *All numbers have been ajusted for infation.*
+
+... **1890**: A 3 bedroom, 1 bath house built by a small family making 1 half per year. The house is worth 2 ...
+
+... **1915**: A new family adds an attached garage for their Henry Ford. The house is worth 3 ...
+
+... **1950**: A new family adds second Bath. The house is worth 4 ...
+
+... **1969**: A TV room is added on the back of the house. The house is worth 5 ...
+
+... **1975**: The kitchen is brought into style. The house is worth 4 and 1 half ...
+
+... **2000**: The windows are replaced to save energy. The house is worth 6 ...
+
+... **2012**: The kitchen and bathrooms are brought into the 21st century. The house is worth 7 ...
+
+... **2020**: The house is rented to a small family making 1 half per year. The house is worth 9.
