@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <main aria-role="main">
+    <main>
 			<section class="homepage-posts">
 				<ul>
 					{{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
