@@ -1,7 +1,7 @@
 ---
 title: "Stupid Door"
 date: 2021-09-30
-draft: true
+draft: false
 ---
 
 ![A door in my living room, with 6 panels. Two small ones at the top, two large ones in the middle, and two medium ones at the bottom. All forming the shape of a cross and open bible](/images/stupid_door.jpg)
