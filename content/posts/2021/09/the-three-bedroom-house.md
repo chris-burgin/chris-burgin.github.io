@@ -3,7 +3,7 @@ title: "The Three Bedroom House"
 date: 2021-09-30
 draft: false
 ---
-> *All numbers have been ajusted for infation.*
+> *All numbers have been adjusted for inflation.*
 
 ... **1890**: A 3 bedroom, 1 bath house built by a small family making 1 half per year. The house is worth 2 ...
 
