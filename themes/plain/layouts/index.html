@@ -5,9 +5,9 @@
 					{{ range (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 					<li> 
 						<a href="{{.Permalink}}">
-							<span>{{.Title}}</span>
-							<span> / </span>
-							<span>{{.Date.Format "January 2, 2006"}} </span> 
+							<span class="title">{{.Title}}</span>
+							<span class="divider"> / </span>
+							<span class="date">{{.Date.Format "January 2, 2006"}} </span> 
 						</a> 
 					</li>
 					{{ end }}
