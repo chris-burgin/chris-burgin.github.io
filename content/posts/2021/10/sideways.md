@@ -4,7 +4,7 @@ date: 2021-10-04
 draft: false
 ---
 
-My coworker recently described some work as "sideways". Sideways work comes out of no where and is urgent. Sideways work is not inherently bad, it might be very important. Though, panic in the moment can create a facade of importance.
+My coworker recently described some work as "sideways". Sideways work comes out of no where and is urgent. Sideways work is not inherently bad, it might be very important. Though panic in the moment can create a facade of importance.
 
 Here are some questions to ask yourself both before and after sideways work.
 
