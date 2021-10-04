@@ -1,7 +1,7 @@
 ---
 title: "Sideways"
 date: 2021-01-01
-draft: true
+draft: false
 ---
 
 My coworker recently described some work as "sideways". Sideways work comes out of no where and is urgent. Sideways work is not inherently bad, it might be very important. Panic in the moment can create a facade of importance.
