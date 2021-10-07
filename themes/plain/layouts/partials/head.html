@@ -3,6 +3,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{.Title}}</title>
 
+	<link rel="shortcut icon" type="image/jpg" href="/images/favicon.png"/>
+
 	{{ $style := resources.Get "plain.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
