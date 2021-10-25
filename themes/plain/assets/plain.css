@@ -174,3 +174,7 @@ article blockquote {
 	padding-left: 24px;
 	margin: 24px 0;
 }
+
+article pre {
+	padding: 10px 14px;
+}
