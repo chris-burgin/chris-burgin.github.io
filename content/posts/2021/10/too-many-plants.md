@@ -1,5 +1,5 @@
 ---
-title: "To Many Plants"
+title: "Too Many Plants"
 date: 2021-10-07
 draft: false
 ---
