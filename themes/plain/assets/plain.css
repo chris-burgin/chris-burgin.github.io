@@ -1,156 +1,161 @@
 body {
-	margin: 0 auto;
-	max-width: 500px;
-	font-family: 'Merriweather', serif;
-	letter-spacing: -0.1px;
-	padding: 16px;
-	color: #303030;
+  margin: 0 auto;
+  max-width: 500px;
+  font-family: "Merriweather", serif;
+  letter-spacing: -0.1px;
+  padding: 16px;
+  color: #303030;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-	margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
 }
 
 h1 {
-	font-size: 40px;
-	font-weight: 900;
-	background: white;
-	border: 3px solid #303030;
-	box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
-	margin-bottom: 4px;
-	padding: 0 12px;
-	width: auto;
-	display: inline-block;
+  font-size: 40px;
+  font-weight: 900;
+  background: white;
+  border: 3px solid #303030;
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+  margin-bottom: 4px;
+  padding: 0 12px;
+  width: auto;
+  display: inline-block;
 }
 
 h2 {
-	font-size: 32px;
-	line-height: 120%;
+  font-size: 32px;
+  line-height: 120%;
 }
 
 /* Link */
 a {
-	color: #2a77ca;
-	text-decoration: none;
+  color: #2a77ca;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Header */
 body > header {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 body > header h1 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 body > header p {
-	margin: 16px 0 0 0;
+  margin: 16px 0 0 0;
 }
 
 body > header nav {
-	display: flex;
-	gap: 12px;
-	border-top: 1px solid rgba(0,0,0,.3);
-	border-bottom: 1px solid rgba(0,0,0,.3);
-	padding: 8px 0;
-	margin: 16px 0 32px 0;
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 8px 0;
+  margin: 16px 0 32px 0;
 }
 
 /* main */
 main {
-	/* I hate reading on the bottom of the screen */
-	margin-bottom: 60px;
+  /* I hate reading on the bottom of the screen */
+  margin-bottom: 60px;
 }
 
 /* Homepage */
 .homepage-posts ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
 }
 
 .homepage-posts ul li {
-	display: grid;
-	padding-bottom: 16px;
-	border-bottom: 1px solid rgba(0,0,0,.3);
+  display: grid;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .homepage-posts ul li a {
-	justify-self: start;
-	display: grid;
-	gap: 8px;
-	text-decoration: none;
-	color: #303030;
-	font-size: 18px;
+  justify-self: start;
+  display: grid;
+  gap: 8px;
+  text-decoration: none;
+  color: #303030;
+  font-size: 18px;
 }
 
 .homepage-posts ul li a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .homepage-posts ul li a span.title {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .homepage-posts ul li a span.divider {
-	display: none;
+  display: none;
 }
 
 .homepage-posts ul li a span.date {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 @media (min-width: 500px) {
-	.homepage-posts ul li a {
-		grid-template-columns: auto auto 1fr;
-	}
+  .homepage-posts ul li a {
+    grid-template-columns: auto auto auto;
+  }
 
-	.homepage-posts ul li a span.divider {
-		display: unset;
-	}
+  .homepage-posts ul li a span.divider {
+    display: unset;
+  }
 }
 
 /* Article */
 
 article header {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 article header h2 {
-	margin: 0;
-	margin-bottom: 4px;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 article header p {
-	margin: 0;
-	font-size: 16px;
+  margin: 0;
+  font-size: 16px;
 }
 
 article {
-	line-height: 160%;
-	font-size: 18px;
+  line-height: 160%;
+  font-size: 18px;
 }
 
 article p {
-	margin-bottom: 0;
-	margin-top: 16px;
+  margin-bottom: 0;
+  margin-top: 16px;
 }
 
 article li {
-	margin-top: 4px;
+  margin-top: 4px;
 }
 
 article a {
-	/* Specific fallbacks for this one since its not easy across browsers. */
+  /* Specific fallbacks for this one since its not easy across browsers. */
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
@@ -163,18 +168,18 @@ article a {
 }
 
 article img {
-	width: 100%;
+  width: 100%;
 }
 
 article blockquote {
-	border-left: 1px solid rgba(0,0,0,.5);
-	margin-left: 0;
-	font-style: italic;
-	opacity: .8;
-	padding-left: 24px;
-	margin: 24px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: 0;
+  font-style: italic;
+  opacity: 0.8;
+  padding-left: 24px;
+  margin: 24px 0;
 }
 
 article pre {
-	padding: 10px 14px;
+  padding: 10px 14px;
 }
